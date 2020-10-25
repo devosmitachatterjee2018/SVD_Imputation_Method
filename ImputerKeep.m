@@ -6,7 +6,6 @@ function Imputed = ImputerKeep( NaNed)
 % A= U* S* V'
 % https://en.wikipedia.org/wiki/Singular-value_decomposition
 % Values NaN is considered to have zero influence of decomposition
-% Sven Ahlinder 2018-09-14; 2020-03-16
 
 A= NaNed;
 M= ones( size( A));
